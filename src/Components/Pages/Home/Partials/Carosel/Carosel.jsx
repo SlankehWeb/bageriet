@@ -2,7 +2,9 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Carosel.scss";
-
+import { useEffect, useState } from "react";
+import axios from "axios";
+import { useNavigate, useParams } from "react-router-dom";
 const MyCarousel = () => {
 
   const [data, setData] = useState([]);
@@ -14,7 +16,7 @@ const MyCarousel = () => {
       const result = await axios.get(endpoint);
 
       setData(result.data);
-      // console.log(result.data);
+      console.log(result.data);
     };
     getData();
   }, [type]);
