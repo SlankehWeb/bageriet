@@ -1,7 +1,10 @@
 import React from "react";
+import Navbar from "../../Navigation/Navbar";
 
 const Products = () => {
-  return <div>Products page</div>;
+  return <>
+  <Navbar/>
+  </>;
 };
 
 export default Products;

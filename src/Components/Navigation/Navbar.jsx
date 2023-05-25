@@ -7,10 +7,10 @@ const Navbar = () => {
     <nav className="nav-bar">
       <ul className="nav-list">
         <li><a href="/">Forside</a></li>
-        <li><a href="/produkter">Produkter</a></li>
+        <li><a href="/Contact">Produkter</a></li>
         <h1 href="/">bageriet</h1>
-        <li><a href="/kontakt">Kontakt</a></li>
-        <li><a href="/login">Login</a></li>
+        <li><a href="/Products">Kontakt</a></li>
+        <li><a href="/Login">Login</a></li>
       </ul>
     </nav>
   );

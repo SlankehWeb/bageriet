@@ -1,5 +1,5 @@
 import React from 'react'
-import MyCarousel from './Partials/Carosel/Carosel'
+import MyCarousel from '../Carosel/Carosel'
 import './Header.scss'
 
 

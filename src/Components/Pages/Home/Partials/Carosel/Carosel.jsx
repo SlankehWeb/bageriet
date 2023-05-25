@@ -9,22 +9,22 @@ const MyCarousel = () => {
       <div className="parent">
         <Carousel className="div1">
           <div>
-            <img src={require("../../../../Image/Slider-images/slide1.jpg")} alt="image1" />
+            <img src={require("../../../../../Image/Slider-images/slide1.jpg")} alt="Image1" />
           </div>
           <div>
-            <img src={require("../../../../Image/Slider-images/slide2.jpg")} alt="Image2" />
+            <img src={require("../../../../../Image/Slider-images/slide2.jpg")} alt="Image2" />
           </div>
           <div>
-            <img src={require("../../../../Image/Slider-images/slide3.jpg")} alt="Image3" />
+            <img src={require("../../../../../Image/Slider-images/slide3.jpg")} alt="Image3" />
           </div>
         </Carousel>
         <div className="div2">
         <nav className="nav-bar">
         <ul className="nav-list">
         <li><a href="/">Forside</a></li>
-        <li><a href="/produkter">Produkter</a></li>
+        <li><a href="/Products">Produkter</a></li>
         <h2 href="/">bageriet</h2>
-        <li><a href="/kontakt">Kontakt</a></li>
+        <li><a href="/Contact">Kontakt</a></li>
         <li><a href="/login">Login</a></li>
       </ul>
     </nav>
