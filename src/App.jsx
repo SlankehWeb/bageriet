@@ -1,11 +1,13 @@
-import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import AppRouter from "./Components/Routing/AppRouter";
 
 
 
 function App() {
   return (
     <>
-    <Header />
+    <AppRouter/>
+    <Footer />
     </>
   );
 }
