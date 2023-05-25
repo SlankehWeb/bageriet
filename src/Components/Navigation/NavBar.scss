@@ -1,0 +1,35 @@
+// NavBar.scss
+@use '../Fonts/Fonts.scss' as c;
+
+.nav-bar{
+  background-color: #66869F;
+  padding: 1em 0;
+}
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list a {
+    font-family: 'Open-Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0 1em;
+    font-size: 0.5em;
+    font-weight: 300;
+  }
+  
+  .nav-list h1 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0 2em;
+    font-weight: 300;
+    color: white;
+  }
+  
