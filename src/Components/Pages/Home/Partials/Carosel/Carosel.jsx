@@ -4,6 +4,21 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Carosel.scss";
 
 const MyCarousel = () => {
+
+  const [data, setData] = useState([]);
+  let { type } = useParams({ type: "items" });
+
+  useEffect(() => {
+    const getData = async () => {
+      const endpoint = `https://api.mediehuset.net/bakeonline/news`;
+      const result = await axios.get(endpoint);
+
+      setData(result.data);
+      // console.log(result.data);
+    };
+    getData();
+  }, [type]);
+
   return (
     <>
       <div className="parent">
